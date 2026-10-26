@@ -144,6 +144,8 @@ img {
     font-weight: 700;
     padding: 10px 12px !important;
     position: relative;
+    display: inline-block;
+
 }
 
 .fp-nav-links .nav-link:hover,
@@ -699,6 +701,7 @@ img {
 
 .fp-why {
     background: var(--white);
+    overflow: hidden;
 }
 
 .fp-why-grid {
@@ -1397,8 +1400,7 @@ a.fp-footer-contact:hover {
         border-radius: 17px;
         margin-top: 15px;
         border: 1px solid rgba(255,255,255,.1);
-        max-height: 75vh;
-        overflow-y: auto;
+       
     }
 
     .fp-nav-links {
